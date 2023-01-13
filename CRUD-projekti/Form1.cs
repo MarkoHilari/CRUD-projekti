@@ -14,7 +14,7 @@ namespace CRUD_projekti
 
         private void VaihdaBT_Click(object sender, EventArgs e)
         {
-            OtsikkoLB.Text = "Heippa maailmat!";
+            OtsikkoLB.Text = "Heippa maailma!";
         }
     }
 }
