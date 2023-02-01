@@ -38,23 +38,28 @@
             // 
             // luku1TB
             // 
+            this.luku1TB.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.luku1TB.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.luku1TB.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.luku1TB.Location = new System.Drawing.Point(34, 53);
             this.luku1TB.Name = "luku1TB";
-            this.luku1TB.Size = new System.Drawing.Size(156, 37);
+            this.luku1TB.Size = new System.Drawing.Size(156, 30);
             this.luku1TB.TabIndex = 0;
             // 
             // luku2TB
             // 
+            this.luku2TB.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.luku2TB.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.luku2TB.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.luku2TB.Location = new System.Drawing.Point(308, 54);
             this.luku2TB.Name = "luku2TB";
-            this.luku2TB.Size = new System.Drawing.Size(156, 37);
+            this.luku2TB.Size = new System.Drawing.Size(156, 30);
             this.luku2TB.TabIndex = 1;
             this.luku2TB.TextChanged += new System.EventHandler(this.luku2TB_TextChanged);
             // 
             // laskeCB
             // 
+            this.laskeCB.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.laskeCB.FormattingEnabled = true;
             this.laskeCB.Items.AddRange(new object[] {
             "+",
@@ -77,13 +82,14 @@
             // 
             // laskeBT
             // 
+            this.laskeBT.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.laskeBT.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.laskeBT.Location = new System.Drawing.Point(652, 43);
             this.laskeBT.Name = "laskeBT";
             this.laskeBT.Size = new System.Drawing.Size(117, 55);
             this.laskeBT.TabIndex = 4;
             this.laskeBT.Text = "Laske";
-            this.laskeBT.UseVisualStyleBackColor = true;
+            this.laskeBT.UseVisualStyleBackColor = false;
             this.laskeBT.Click += new System.EventHandler(this.laskeBT_Click);
             // 
             // vastausLB
@@ -101,7 +107,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1260, 431);
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.ClientSize = new System.Drawing.Size(1327, 639);
             this.Controls.Add(this.vastausLB);
             this.Controls.Add(this.laskeBT);
             this.Controls.Add(this.label1);

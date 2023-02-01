@@ -15,7 +15,7 @@ namespace Crud_projektikoulu
             }
             else
             {
-                OtsikkoLB.Text = "Otsikko";
+                OtsikkoLB.Text = "Otsikko  ";
             }
                        
         }
