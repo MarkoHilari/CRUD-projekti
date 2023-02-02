@@ -47,15 +47,13 @@ namespace SalaSananTarkistus
         {
             if(chkBX.Checked)
             {
-                SalasanaTB.UseSystemPasswordChar = false;
-                var checkBox = (CheckBox)sender;
-                checkBox.Text = "Näytä";
+                SalasanaTB.PasswordChar = '\0';
+                
             }
             else
             {
-                SalasanaTB.UseSystemPasswordChar = true;
-                var checkBox = (CheckBox)sender;
-                checkBox.Text = "Piilota";
+                SalasanaTB.PasswordChar = '*';
+                
             }
         }
     }
